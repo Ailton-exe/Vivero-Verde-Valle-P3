@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo - Vivero Verde Valle</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header class="header">    
+        <div class="header-container"> 
+            <div class="logo-text">
+                <a href="Index.html">
+                <img src="IMG/Logo/logomark-white.svg" alt="Logo" class="logo">
+                <p class="header-text">Vivero Verde Valle</p></a>
+            
+            </div>
+
+            <!-- Buscador -->
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar productos..." />
+                <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="icon">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35M9.75 15A6.25 6.25 0 109.75 2.5a6.25 6.25 0 000 12.5z" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Navegación -->
+            <nav class="nav">
+                <ul>                
+                    <li><a href="catalog.html">Catálogo</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#faq">FAQ's</a></li>
+                </ul>
+            </nav>            
+            <div class="header-actions">
+                <!-- Íconos -->
+                <div class="header-icons">
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l3.6 7.2L8.9 15h8.2l1.3-4.8L19 3h2M6 19c0 1.1.9 2 2 2s2-.9 2-2m8 0c0 1.1.9 2 2 2s2-.9 2-2M6 6h12" />
+                        </svg>
+                    </span>
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M16 21v-2a4 4 0 00-8 0v2m4-10a4 4 0 110-8 4 4 0 010 8z" />
+                        </svg>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    
+
+    <!-- Filtros de búsqueda -->
+    <div class="two-columns">
+    <section class="filters">
+        <h3>Filtros</h3>
+        <form>
+            <label for="tipo-planta">Tipo de Planta</label>
+            <select id="tipo-planta">
+                <option value="interior">Interior</option>
+                <option value="exterior">Exterior</option>
+                <option value="suculenta">Suculenta</option>
+                <option value="cactus">Cactus</option>
+            </select>
+
+            <label for="nivel-cuidado">Nivel de Cuidado</label>
+            <select id="nivel-cuidado">
+                <option value="bajo">Bajo</option>
+                <option value="medio">Medio</option>
+                <option value="alto">Alto</option>
+            </select>
+
+            <label for="espacio">Espacio</label>
+            <select id="espacio">
+                <option value="interior">Interior</option>
+                <option value="exterior">Exterior</option>
+            </select>
+
+            <label for="luz">Luz Requerida</label>
+            <select id="luz">
+                <option value="baja">Baja</option>
+                <option value="media">Media</option>
+                <option value="alta">Alta</option>
+            </select>
+
+            <button type="submit" class="btn btn-secondary">Aplicar filtros</button>
+        </form>
+    </section>
+
+    <!-- Sección de Productos -->
+
+    
+    <section id="promociones" class="promociones">
+        
+        <div class="promociones-grid">
+            <div class="promociones-grid">
+                <div class="tarjeta">
+                    <img src="IMG/Catalog/Products/Plant-01.png" alt="Producto 1">
+                    <h3>Orquídea Phalaenopsis</h3>
+                    <p>$120.00</p>
+                    <button class="btn btn-primary">Comprar ahora</button>
+                </div>
+                <div class="tarjeta">
+                    <img src="IMG/Catalog/Products/Plant-02.png" alt="Producto 2">
+                    <h3>Anturio Rojo</h3>
+                    <p>$160.00</p>
+                    <button class="btn btn-primary">Comprar ahora</button>
+                </div>
+                <div class="tarjeta">
+                    <img src="IMG/Catalog/Products/Plant-03.png" alt="Producto 3">
+                    <h3>Áloe Vera</h3>
+                    <p>$180.00</p>
+                    <button class="btn btn-primary">Comprar ahora</button>
+                </div>
+                <div class="tarjeta">
+                    <img src="IMG/Catalog/Products/Plant-04.png" alt="Producto 4">
+                    <h3>Ficus Lyrata</h3>
+                    <p>$220.00</p>
+                    <button class="btn btn-primary">Comprar ahora</button>
+                </div>
+                <div class="tarjeta">
+                    <img src="IMG/Catalog/Products/Plant-05.png" alt="Producto 5">
+                    <h3>Planta ZZ</h3>
+                    <p>$90.00</p>
+                    <button class="btn btn-primary">Comprar ahora</button>
+                </div>
+                <div class="tarjeta">
+                    <img src="IMG/Catalog/Products/Plant-06.png" alt="Producto 6">
+                    <h3>Palmera de Interior</h3>
+                    <p>$140.00</p>
+                    <button class="btn btn-primary">Comprar ahora</button>
+                </div>
+                <div class="tarjeta">
+                    <img src="IMG/Catalog/Products/Plant-07.png" alt="Producto 7">
+                    <h3>Begonias</h3>
+                    <p>$110.00</p>
+                    <button class="btn btn-primary">Comprar ahora</button>
+                </div>
+                <div class="tarjeta">
+                    <img src="IMG/Catalog/Products/Plant-08.png" alt="Producto 8">
+                    <h3>Helecho de Boston</h3>
+                    <p>$130.00</p>
+                    <button class="btn btn-primary">Comprar ahora</button>
+                </div>
+                <div class="tarjeta">
+                    <img src="IMG/Catalog/Products/Plant-09.png" alt="Producto 9">
+                    <h3>Jazmín</h3>
+                    <p>$160.00</p>
+                    <button class="btn btn-primary">Comprar ahora</button>
+                </div>
+                <div class="tarjeta">
+                    <img src="IMG/Catalog/Products/Plant-10.png" alt="Producto 10">
+                    <h3>Cactus</h3>
+                    <p>$70.00</p>
+                    <button class="btn btn-primary">Comprar ahora</button>
+                </div>
+                <div class="tarjeta">
+                    <img src="IMG/Catalog/Products/Plant-11.png" alt="Producto 11">
+                    <h3>Geranios</h3>
+                    <p>$85.00</p>
+                    <button class="btn btn-primary">Comprar ahora</button>
+                </div>
+                <div class="tarjeta">
+                    <img src="IMG/Catalog/Products/Plant-12.png" alt="Producto 12">
+                    <h3>Lavanda</h3>
+                    <p>$100.00</p>
+                    <button class="btn btn-primary">Comprar ahora</button>
+                </div>
+                <div class="tarjeta">
+                    <img src="IMG/Catalog/Products/Plant-13.png" alt="Producto 13">
+                    <h3>Monstera Deliciosa</h3>
+                    <p>$250.00</p>
+                    <button class="btn btn-primary">Comprar ahora</button>
+                </div>
+                <div class="tarjeta">
+                    <img src="IMG/Catalog/Products/Plant-14.png" alt="Producto 14">
+                    <h3>Coleo</h3>
+                    <p>$75.00</p>
+                    <button class="btn btn-primary">Comprar ahora</button>
+                </div>
+                <div class="tarjeta">
+                    <img src="IMG/Catalog/Products/Plant-15.png" alt="Producto 15">
+                    <h3>Planta de Sombra</h3>
+                    <p>$140.00</p>
+                    <button class="btn btn-primary">Comprar ahora</button>
+                </div>
+                <div class="tarjeta">
+                    <img src="IMG/Catalog/Products/Plant-16.png" alt="Producto 16">
+                    <h3>Bamboo</h3>
+                    <p>$220.00</p>
+                    <button class="btn btn-primary">Comprar ahora</button>
+                </div>
+                <div class="tarjeta">
+                    <img src="IMG/Catalog/Products/Plant-17.png" alt="Producto 17">
+                    <h3>Violeta Africana</h3>
+                    <p>$50.00</p>
+                    <button class="btn btn-primary">Comprar ahora</button>
+                </div>
+                <div class="tarjeta">
+                    <img src="IMG/Catalog/Products/Plant-18.png" alt="Producto 18">
+                    <h3>Clavel</h3>
+                    <p>$110.00</p>
+                    <button class="btn btn-primary">Comprar ahora</button>
+                </div>
+                <div class="tarjeta">
+                    <img src="IMG/Catalog/Products/Plant-19.png" alt="Producto 19">
+                    <h3>Lirio de Paz</h3>
+                    <p>$180.00</p>
+                    <button class="btn btn-primary">Comprar ahora</button>
+                </div>
+                <div class="tarjeta">
+                    <img src="IMG/Catalog/Products/Plant-20.png" alt="Producto 20">
+                    <h3>Espada de San Jorge</h3>
+                    <p>$160.00</p>
+                    <button class="btn btn-primary">Comprar ahora</button>
+                </div>
+            </div>
+            
+
+            
+            
+            
+        </div>
+        <div class="paginacion">
+            <a href="#">Anterior</a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">Siguiente</a>
+        </div>
+        
+    </section>
+
+</div>
+    <!-- Pie de página -->
+    <footer class="footer">
+        <img src="IMG/Logo/logomark-white.svg" alt="Logo" class="logo">
+        <p>Vivero Verde Valle</p>
+        <p>Síguenos en redes sociales:</p>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">WhatsApp</a>
+        </div>
+        <p>Contacto: viveroverdevalle@gmail.com | Tel: (33) 1234-5678</p>
+    </footer>
+</body>
+</html>

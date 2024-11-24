@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivero Verde Valle</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Encabezado -->
+    
+    <header class="header">    
+        <div class="header-container"> 
+            <div class="logo-text">
+                <a href="Index.html">
+                <img src="IMG/Logo/logomark-white.svg" alt="Logo" class="logo">
+                <p class="header-text">Vivero Verde Valle</p></a>
+            
+            </div>
+            
+            
+                
+                <!-- Buscador -->
+                <div class="search-bar">
+                    <input type="text" placeholder="Buscar productos..." />
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="icon">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35M9.75 15A6.25 6.25 0 109.75 2.5a6.25 6.25 0 000 12.5z" />
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Secciones -->
+
+            <nav class="nav">
+                <ul>                
+                    <li><a href="catalog.html">Catálogo</a></li>
+                    <li><a href="#promociones">Nosotros</a></li>
+                    <li><a href="#categorias">FAQ's</a></li>
+                </ul>
+            </nav>            
+            <div class="header-actions">
+        
+                <!-- Íconos -->
+                <div class="header-icons">
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l3.6 7.2L8.9 15h8.2l1.3-4.8L19 3h2M6 19c0 1.1.9 2 2 2s2-.9 2-2m8 0c0 1.1.9 2 2 2s2-.9 2-2M6 6h12" />
+                        </svg>
+                    </span>
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M16 21v-2a4 4 0 00-8 0v2m4-10a4 4 0 110-8 4 4 0 010 8z" />
+                        </svg>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    
+    <!-- Banners informativos -->
+
+    <section id="banners" class="banners">
+        <a href="catalog.html">
+        <div class="carousel">
+            <div class="carousel-slide active"><img src="IMG/Landing/Banners/Banner 1.png" alt="Banner" class="img-banner"></div>
+            <div class="carousel-slide"><img src="IMG/Landing/Banners/Banner 2.png" alt="Banner" class="img-banner"></div>
+            <div class="carousel-slide"><img src="IMG/Landing/Banners/Banner 3.png" alt="Banner" class="img-banner"></div>
+        </div>
+        </a>
+        <div class="carousel-controls">
+            <button class="prev">❮</button>
+            <button class="next">❯</button>
+        </div>
+    </section>
+
+    <!-- Promociones destacadas -->
+    <section id="promociones" class="promociones">
+        <h2>Promociones destacadas</h2>
+        <div class="promociones-grid">
+            <div class="tarjeta">
+                <img src="IMG/Landing/Products/Plant-01.png" alt="Producto 1">
+                <h3>Floresta</h3>
+                <p>$99.00</p>
+                <button class="btn btn-primary">Comprar ahora</button>
+            </div>
+            <div class="tarjeta">
+                <img src="IMG/Landing/Products/Plant-02.png" alt="Producto 2">
+                <h3>Anturio rosa</h3>
+                <p>$149.00</p>
+                <button class="btn btn-primary">Comprar ahora</button>
+            </div>
+            <div class="tarjeta">
+                <img src="IMG/Landing/Products/Plant-03.png" alt="Producto 3">
+                <h3>Suculenta</h3>
+                <p>$199.00</p>
+                <button class="btn btn-primary">Comprar ahora</button>
+            </div>
+            <div class="tarjeta">
+                <img src="IMG/Landing/Products/Plant-04.png" alt="Producto 4">
+                <h3>Moises</h3>
+                <p>$249.00</p>
+                <button class="btn btn-primary">Comprar ahora</button>
+            </div>
+        </div>
+        <a href="catalog.html" class="btn btn-secondary">Ver más productos</a>
+    </section>
+
+    <!-- Categorías populares -->
+    <section id="categorias" class="categorias">
+        <h2>Categorías populares</h2>
+        <div class="categorias-grid">
+            <a href="catalog.html" class="categoria">
+                <div class="overlay">
+                    <h3>Decoración</h3>
+                </div>
+                <img src="IMG/Landing/Category/decoracion.png" alt="Decoración">
+            </a>
+            <a href="catalog.html" class="categoria">
+                <div class="overlay">
+                    <h3>Fertilizantes</h3>
+                </div>
+                <img src="IMG/Landing/Category/fertilizantes.png" alt="Fertilizantes">
+            </a>
+            <a href="catalog.html" class="categoria">
+                <div class="overlay">
+                    <h3>Herramientas</h3>
+                </div>
+                <img src="IMG/Landing/Category/herramientas.png" alt="Herramientas">
+            </a>
+            <a href="catalog.html" class="categoria">
+                <div class="overlay">
+                    <h3>Macetas</h3>
+                </div>
+                <img src="IMG/Landing/Category/macetas.png" alt="Macetas">
+            </a>
+            <a href="catalog.html" class="categoria">
+                <div class="overlay">
+                    <h3>Plantas</h3>
+                </div>
+                <img src="IMG/Landing/Category/plantas.png" alt="Plantas">
+            </a>
+            <a href="catalog.html" class="categoria">
+                <div class="overlay">
+                    <h3>Sustratos</h3>
+                </div>
+                <img src="IMG/Landing/Category/sustratos.png" alt="Sustratos">
+            </a>
+        </div>
+    </section>
+
+    <section id="promociones" class="promociones">
+        <h2>Más vendidos</h2>
+        <div class="promociones-grid">
+            <div class="tarjeta">
+                <img src="IMG/Landing/Products/Plant-05.png" alt="Producto 5">
+                <h3>Bromelia</h3>
+                <p>$129.00</p>
+                <button class="btn btn-primary">Comprar ahora</button>
+            </div>
+            <div class="tarjeta">
+                <img src="IMG/Landing/Products/Plant-06.png" alt="Producto 6">
+                <h3>Helecho</h3>
+                <p>$89.00</p>
+                <button class="btn btn-primary">Comprar ahora</button>
+            </div>
+            <div class="tarjeta">
+                <img src="IMG/Landing/Products/Plant-07.png" alt="Producto 7">
+                <h3>Palma Areca</h3>
+                <p>$179.00</p>
+                <button class="btn btn-primary">Comprar ahora</button>
+            </div>
+            <div class="tarjeta">
+                <img src="IMG/Landing/Products/Plant-08.png" alt="Producto 8">
+                <h3>Drácena</h3>
+                <p>$219.00</p>
+                <button class="btn btn-primary">Comprar ahora</button>
+            </div>
+        </div>
+        <a href="catalog.html" class="btn btn-secondary">Ver más productos</a>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="footer">       
+
+        <img src="IMG/Logo/logomark-white.svg" alt="Logo" class="logo">
+        <p class="header-text">Vivero Verde Valle</p>       
+        <p>Síguenos en nuestras redes sociales</p>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">WhatsApp</a>
+        </div>
+        <p>Contacto: viveroverdevalle@gmail.com | Tel: (33) 1234-5678</p>
+    </footer>
+    <script src="slider-banner.js"></script>
+</body>
+</html>
